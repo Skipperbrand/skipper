@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skipper Brand</title>
+<style>
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#0f172a;
+    color:white;
+}
+header{
+    padding:20px;
+    text-align:center;
+    background:#020617;
+}
+.hero{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+.hero h1{
+    font-size:60px;
+    margin-bottom:15px;
+}
+.hero p{
+    font-size:20px;
+    opacity:0.8;
+}
+.btn{
+    margin-top:20px;
+    padding:12px 25px;
+    background:#3b82f6;
+    border:none;
+    border-radius:30px;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    text-decoration:none;
+}
+section{
+    padding:60px 20px;
+    max-width:900px;
+    margin:auto;
+}
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:35px;
+}
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+.skill-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+}
+input, textarea{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    border-radius:10px;
+    border:none;
+}
+footer{
+    text-align:center;
+    padding:30px;
+    background:#020617;
+}
+</style>
+</head>
+
+<body>
+<header>
+<h2>Skipper 👑</h2>
+</header>
+
+<div class="hero">
+<h1>Skipper – Built Different</h1>
+<p>Personal brand of excellence, discipline, and innovation.</p>
+<a href="#contact" class="btn">Contact Me</a>
+</div>
+
+<section id="about">
+<h2 class="section-title">About Me</h2>
+<p style="text-align:center; line-height:1.7; opacity:0.9;">
+Skipper is a personal brand representing determination, creativity, and high performance mindset.
+I believe in working smart, staying disciplined, and delivering quality in everything I do.
+</p>
+</section>
+
+<section id="skills">
+<h2 class="section-title">Skills</h2>
+<div class="skills">
+<div class="skill-card">Web Development</div>
+<div class="skill-card">Problem Solving</div>
+<div class="skill-card">Creative Design</div>
+<div class="skill-card">Communication</div>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="section-title">Contact Me</h2>
+<form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+<input type="text" name="name" placeholder="Your Name" required>
+<input type="email" name="email" placeholder="Your Email" required>
+<textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+<button class="btn" type="submit">Send Message</button>
+</form>
+</section>
+
+<footer>
+<p>© 2026 Skipper Brand. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
